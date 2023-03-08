@@ -26,7 +26,7 @@ Assumptions
 ## Installation
 
 1. Clone the repository
-2.
+2. Start PostgreSQL
 3. Create, Migrate, and Seed the database
 ```
 rake db:create
