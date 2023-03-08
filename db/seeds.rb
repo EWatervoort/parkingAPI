@@ -5,3 +5,65 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+spots = Spot.create([
+    {
+        spot_type: "car" 
+    },
+    {
+        spot_type: "car" 
+    },
+    {
+        spot_type: "car" 
+    },
+    {
+        spot_type: "car" 
+    },
+    {
+        spot_type: "car" 
+    },
+    {
+        spot_type: "motorcycle"
+    },
+    {
+        spot_type: "motorcycle"
+    },
+    {
+        spot_type: "motorcycle"
+    },
+    {
+        spot_type: "motorcycle"
+    },
+    {
+        spot_type: "motorcycle",
+        taken: "motorcycle"
+    },
+    {
+        spot_type: "van",
+    },
+    {
+        spot_type: "van",
+    },
+    {
+        spot_type: "van",
+    },
+    {
+        spot_type: "van",
+    },
+    {
+        spot_type: "van",
+        taken: "van"
+    },
+    {
+        spot_type: "car" 
+    },
+    {
+        spot_type: "car" 
+    },
+    {
+        spot_type: "car" 
+    },
+    {
+        spot_type: "car" 
+    }
+
+])
